@@ -42,10 +42,13 @@
 .task-wrapper, h3 {
   list-style: none;
 }
-.task-wrapper__delete, .task-wrapper__edit, .task-wrapper__task {
+.task-wrapper__delete, 
+.task-wrapper__edit, 
+.task-wrapper__task {
   outline: none;
 }
-.task-wrapper__delete, .task-wrapper__edit {
+.task-wrapper__delete, 
+.task-wrapper__edit {
   background: none;
   border: 0px;
   color: #888;
@@ -54,7 +57,8 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-.task-wrapper__delete:hover, .task-wrapper__edit:hover {
+.task-wrapper__delete:hover, 
+.task-wrapper__edit:hover {
   color: #3a3A3a;
 }
 /* Heading */
