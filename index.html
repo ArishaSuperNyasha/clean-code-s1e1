@@ -10,7 +10,8 @@
 </head>
 <body class="page">
   <header class="header">
-    <img class="header__img" 
+    <img 
+      class="header__img" 
       src="./eisenhower-matrix.jpg" 
       alt="THE EISENHOWER MATRIX: How to Make Decisions on What's URGENT&IMPORTANT">
     <a
@@ -23,7 +24,7 @@
     <div id="add-task">
       <label class="tasks-capture" for="new-task">Add Item</label>
       <div class="task-row-wrapper">
-        <input id="new-task" class="task-wrapper__task" type="text">
+        <input id="new-task" class="task-wrapper__task input" type="text">
         <button class="task-wrapper__edit" id="add-new">Add</button>
       </div>
     </div>
@@ -31,8 +32,8 @@
     <ul class="task-groups" id="incompleted-tasks">
       <li class="task-wrapper">
         <input class="task-wrapper__check" type="checkbox">
-        <label class="task-wrapper__task">Pay Bills</label>
-        <input class="task-wrapper__task" type="text">
+        <label class="task-wrapper__task label">Pay Bills</label>
+        <input class="task-wrapper__task input" type="text">
         <button class="task-wrapper__edit">Edit</button>
         <button class="task-wrapper__delete">
           <img src="./remove.svg" alt="the delete button">
@@ -40,8 +41,8 @@
       </li>
       <li class="task-wrapper edit-mode">
         <input class="task-wrapper__check" type="checkbox">
-        <label class="task-wrapper__task">Go Shopping</label>
-        <input class="task-wrapper__task" type="text" value="Go Shopping">
+        <label class="task-wrapper__task label">Go Shopping</label>
+        <input class="task-wrapper__task input" type="text" value="Go Shopping">
         <button class="task-wrapper__edit">Save</button>
         <button class="task-wrapper__delete">
           <img src="./remove.svg" alt="the delete button">
@@ -51,8 +52,8 @@
     <ul class="task-groups" id="completed-tasks">
       <li class="task-wrapper">
         <input class="task-wrapper__check" type="checkbox" checked>
-        <label class="task-wrapper__task">See the Doctor</label>
-        <input class="task-wrapper__task" type="text">
+        <label class="task-wrapper__task label">See the Doctor</label>
+        <input class="task-wrapper__task input" type="text">
         <button class="task-wrapper__edit">Edit</button>
         <button class="task-wrapper__delete">
           <img src="./remove.svg" alt="the delete button">
