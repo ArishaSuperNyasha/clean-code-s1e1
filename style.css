@@ -17,7 +17,7 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .header { 
     text-align: center;
   }
@@ -36,14 +36,14 @@
   display: flex;
 }
 .task-groups {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .task-wrapper, h3 {
-  list-style:none;
+  list-style: none;
 }
-.task-wrapper__delete, .task-wrapper__edit, .task-wrapper__task{
-  outline:none;
+.task-wrapper__delete, .task-wrapper__edit, .task-wrapper__task {
+  outline: none;
 }
 .task-wrapper__delete, .task-wrapper__edit {
   background: none;
@@ -135,14 +135,14 @@ input.task-wrapper__task {
 
 /* Edit Task */
 .task-wrapper:not(.edit-mode) input.task-wrapper__task {
-  display:none
+  display: none
 }
 
 .edit-mode input.task-wrapper__task {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
-.edit-mode label.task-wrapper__task{
-  display:none;
+.edit-mode label.task-wrapper__task {
+  display: none;
 }
