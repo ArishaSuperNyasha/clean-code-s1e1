@@ -9,49 +9,55 @@
   <link rel="stylesheet" href="style.css"media="screen" charset="utf-8">
 </head>
 <body>
-  <div class="aaa">
+  <header>
     <img src="./eisenhower-matrix.jpg">
     <a
-      class="more_inf" 
+      class="more-inf-link" 
       href="https://goal-life.com/page/method/matrix-eisenhower"
     >Want more details?
     </a>
-  </div>
-  <div class="centered-main-page-element">
+  </header>
+  <main>
     <p id="topSectionForAddingElementToList">
       <label for="new-task">Add Item</label>
       <div class="task-row-wrapper">
-        <input id="new-task"class="task" type="text">
+        <input id="new-task" class="task-wrapper__task" type="text">
         <button>Add</button>
       </div>
     </p>
     <h3>Todo</h3>
-    <ul id="incompleteTasks">
-      <li>
+    <ul id="incompleted-tasks">
+      <li class="task-wrapper">
         <input type="checkbox">
-        <label class="task">Pay Bills</label>
-        <input type="text" class="task">
-        <button class="edit">Edit</button>
-        <button class="delete"><img src="./remove.svg"></button>
+        <label class="task-wrapper__task">Pay Bills</label>
+        <input class="task-wrapper__task" type="text">
+        <button class="task-wrapper__edit">Edit</button>
+        <button class="task-wrapper__delete">
+          <img src="./remove.svg">
+        </button>
       </li>
-      <li class="editMode">
+      <li class="task-wrapper editMode">
         <input type="checkbox">
-        <label class="task">Go Shopping</label>
-        <input type="text" value="Go Shopping" class="task">
-        <button class="edit">Save</button>
-        <button class="delete"><img src="./remove.svg"></button></li>
+        <label class="task-wrapper__task">Go Shopping</label>
+        <input class="task-wrapper__task" type="text" value="Go Shopping">
+        <button class="task-wrapper__edit">Save</button>
+        <button class="task-wrapper__delete">
+          <img src="./remove.svg">
+        </button>
     </ul>
     <h3>Completed</h3>
     <ul id="completed-tasks">
-      <li>
+      <li class="task-wrapper">
         <input type="checkbox" checked>
-        <label class="task">See the Doctor</label>
-        <input type="text" class="task">
-        <button class="edit">Edit</button>
-        <button class="delete"><img src="./remove.svg"></button>
+        <label class="task-wrapper__task">See the Doctor</label>
+        <input class="task-wrapper__task" type="text">
+        <button class="task-wrapper__edit">Edit</button>
+        <button class="task-wrapper__delete">
+          <img src="./remove.svg">
+        </button>
       </li>
     </ul>
-  </div>
+  </main>
   <script src="app.js"></script>
 </body>
 </html>
