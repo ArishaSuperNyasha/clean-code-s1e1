@@ -138,11 +138,11 @@ ul .task-wrapper input[type=text] {
   display:none
 }
 
-ul .task-wrapper.editMode input[type=text] {
+ul .task-wrapper.edit-mode input[type=text] {
   display:inline-block;
   width:224px
 }
 
-ul .task-wrapper.editMode label {
+ul .task-wrapper.edit-mode label {
   display:none;
 }
